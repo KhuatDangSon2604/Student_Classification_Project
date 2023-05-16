@@ -9,7 +9,7 @@ Khuất Đăng Sơn 20002159 <b>(C)</b> ([github_link](https://github.com/Thefuc
 
 Nguyễn Thị Thanh 20002164 ([github_link])
 
-Trần Thiên Cường 20002109 ([github_link])
+Trần Thiên Cường 20002109 ([github_link](https://github.com/TranThienCuong))
 ___
 
 ## Cấu trúc các thư mục:
@@ -69,3 +69,44 @@ ___
 * sklearn: Phục vụ việc xây dựng mô hình học máy cũng như tìm ra mô hình tốt nhất
 * Google Colab: Sử dụng để tiện hơn trong việc xây dựng mô hình
 * Vscode: Dùng trong việc code html, css, javascript
+___
+
+## Lưu đồ
+1. Lưu đồ tổng quan
+![General_Model](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/20a3d306-a0c4-4874-81a4-074ada3c07d9)
+------
+2. Lưu đồ xây dựng mô hình machine learning
+
+![Machine Learning Process](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/e3bf2443-9135-4220-bea9-3e034d51cc91)
+
+------
+3. Mô hình chuẩn dựa trên CRISP-DM ([Reference_Link](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining))
+
+![standard machine learning model](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/24b8aacf-85d0-4425-8c48-09fd977cc148)
+___
+
+## Quy trình phát triển
+- Bước 1: Data Collecting (Thu thập dữ liệu)
+- Bước 2: Data Cleaning (Áp dụng kỹ thuật lọc ảnh haarcascade để nhận diện được khuôn mặt trong từng bức ảnh)
+- Bước 3: Feature Engineering (Trích chọn đặc trưng - Áp dụng Wavelet Transform để lọc ra những đặc trưng có ý nghĩa quan trọng để đưa vào việc huần luyện mô hình học máy)
+- Bước 4: Build Model (Đầu tiên, thử với svm(Support Vector Machine) sau đó sử dụng GridSearchCV áp dụng với 4 thuật toán học máy (KNN, Random Forest, SVM và Logistic Regression) với các tham số khác nhau để chọn ra được mô hình có điểm số tốt nhất (đáp ứng cả tập train và tập test))
+- Bước 5: Build Flask Server (Viết 1 server sử dụng thư viện Flask và đưa mô hình học máy đã được huấn luyện ở trên vào Server đó)
+- Bước 6: Build UI (Viết code html, css, javascript để tạo ra giao diện người dùng cũng như là phần front-end để giao tiếp với back-end (Webser đã được tạo ra từ bước trước đó) --> Tạo ra được 1 web hoạt động được ổn định)
+
+___
+
+## Cách thức cài đặt và hoạt động của web app
+### 1. Cách thức cài đặt
+1.1. Các gói phần mềm cần cài
+
+- Để có thể chạy được dự án trước hết chúng ta cần cài python version 3.9 thông qua đường link sau : https://www.python.org/ 
+- Sau đó đi vào thư mục Model. Ở đó mở git bash ([Có thể cài tại đây](https://git-scm.com/)) lên và gõ câu lệnh sau:
+```python
+pip install -r requirements.txt
+```
+- Sau khi cài đặt các gói thư viện thành công. Truy cập vào thư mục Server chạy file server.py thông qua câu lệnh sau:
+```python
+python server.py
+```
+
+
