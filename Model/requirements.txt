@@ -1,9 +1,9 @@
-PyWavelets
-opencv-python
-scikit-learn
-seaborn
+PyWavelets==0.5.2
+opencv-python==4.5.4.60
+scikit-learn==1.1.2
+seaborn==0.8.1
 numpy 
 matplotlib
 pandas
 flask
-joblib
+joblib==1.1.0
