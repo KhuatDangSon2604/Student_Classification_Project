@@ -108,5 +108,36 @@ pip install -r requirements.txt
 ```python
 python server.py
 ```
+Kết quả chạy được:
+```
+Starting Python Flask Server for Student Image Classification
+loading server artifacts...start
+Loading server artifacts...done
+ * Serving Flask app 'server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+```
+1.2 Chạy chương trình
 
+- Sau khi thực hiện các bước như trên thì chúng ta truy cập vào folder UI mở file app.html lên sẽ được kết quả như sau
 
+![image](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/84228ae2-427a-4468-a051-fd0443ba744c)
+
+- Sau khi kéo ảnh vào ô "Drop File here or click to upload" và ấn vào nút classify chúng ta sẽ được kết quả như sau
+
+![image](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/b659016c-b183-4653-8d0a-05f52829c2b2)
+___
+
+## Kết luận
+-> Như vậy trong dự án trên nhóm chúng em đã làm được một ứng dụng khá thú vị khi có sự kết hợp giữa việc kết hợp học máy và tích hợp được vào 1 web app. Mặc dù web app phía trên của chúng em vẫn chưa được hoàn chỉnh, việc nhận diện nhiều lúc vẫn còn nhầm lẫn mặc dù mô hình đưa ra có thể thấy có độ chính xác khá cao nhưng mà đối với việc đưa vào thực tế vẫn chưa được ổn. Thông qua dự án trên chúng em đã có cái nhìn tổng thể hơn về quy trình để từ một mô hình học máy đưa đến tay người dùng khó khăn như thế nào. Không chỉ là việc biết về machine learning cũng như các thuật toán của chúng mà chúng ta còn phải biết tích hợp các công nghệ đưa ra sản phẩm cuối cùng đến tay người dùng.
+- Trong tương lai sau khi đã tinh chỉnh xong mọi thứ, trang web đã hoạt động được hoàn hảo thì chúng em cũng tính đến bước cuối cùng đó là đẩy lên cloud, tạo ra 1 web chính thức và đưa được đến tay người dùng.
+___
+
+## Tài liệu tham khảo
+
+1. Sport Celebrity Image Classification Playlist (author: Code Basic) (https://www.youtube.com/playlist?list=PLeo1K3hjS3uvaRHZLl-jLovIjBP14QTXc)
+2. Link github (https://github.com/codebasics/py/tree/master/DataScience/CelebrityFaceRecognition)
+3. What is Fourier Transform (author: 3Blue1Brown) (https://www.youtube.com/watch?v=spUNpyF58BY&t=423s)
+4. Feature Engineering là gì? (https://viblo.asia/p/feature-engineering-phan-1-vai-tro-cua-feature-engineering-voi-viec-xay-dung-mo-hinh-hoc-may-co-ban-ve-dac-trung-cua-du-lieu-1Je5E420lnL)
