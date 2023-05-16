@@ -3,7 +3,7 @@
 # Trên đây là dự án giữa kì đối với môn học "Nhập môn trí tuệ nhân tạo". Trong dự án này, chúng em thực hiện nhiệm vụ xem xét một ảnh xem đó là ai bằng cách sử dụng mô hình đã được lưu dưới dạng file có đuôi '.pkl'
 ___
 
-Thành viên nhóm:
+## Thành viên nhóm:
 
 Khuất Đăng Sơn 20002159 <b>(C)</b> ([github_link](https://github.com/Thefuckingdead))
 
