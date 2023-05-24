@@ -1,5 +1,4 @@
-![image](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/17d4e5d6-665b-4d3e-8a17-9ae98f040e03)
-
+![image](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/491be18f-a227-4b5f-8200-57a8677b1a21)
 # Trên đây là dự án giữa kì đối với môn học "Nhập môn trí tuệ nhân tạo". Trong dự án này, chúng em thực hiện nhiệm vụ xem xét một ảnh xem đó là ai bằng cách sử dụng mô hình đã được lưu dưới dạng file có đuôi '.pkl'
 ___
 
@@ -73,16 +72,14 @@ ___
 
 ## Lưu đồ
 1. Lưu đồ tổng quan
-![General_Model](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/20a3d306-a0c4-4874-81a4-074ada3c07d9)
+![General_Model](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/05866d57-a2e6-4b8a-b9cb-c8d8d3286edb)
 ------
 2. Lưu đồ xây dựng mô hình machine learning
-
-![Machine Learning Process](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/e3bf2443-9135-4220-bea9-3e034d51cc91)
-
+![Machine Learning Process](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/040dca91-de76-40eb-97d5-87b946d98128)
 ------
 3. Mô hình chuẩn dựa trên CRISP-DM ([Reference_Link](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining))
 
-![standard machine learning model](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/24b8aacf-85d0-4425-8c48-09fd977cc148)
+![standard machine learning model](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/42f4f8a1-fa14-4ca0-bf2e-02e0d1b99a9c)
 ___
 
 ## Quy trình phát triển
@@ -123,11 +120,11 @@ Press CTRL+C to quit
 
 - Sau khi thực hiện các bước như trên thì chúng ta truy cập vào folder UI mở file app.html lên sẽ được kết quả như sau
 
-![image](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/84228ae2-427a-4468-a051-fd0443ba744c)
+![image](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/a0d190d7-15bd-483b-aa9e-2e5c2558b344)
 
 - Sau khi kéo ảnh vào ô "Drop File here or click to upload" và ấn vào nút classify chúng ta sẽ được kết quả như sau
 
-![image](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/b659016c-b183-4653-8d0a-05f52829c2b2)
+![image](https://github.com/Thefuckingdead/Student_Classification_Project/assets/95278548/4da6a928-b502-4731-b91c-c7a59eebab00)
 ___
 
 ## Kết luận
