@@ -6,7 +6,7 @@ ___
 
 Khuất Đăng Sơn 20002159 <b>(C)</b> ([github_link](https://github.com/Thefuckingdead))
 
-Nguyễn Thị Thanh 20002164 ([github_link])
+Nguyễn Thị Thanh 20002164 ([github_link](https://github.com/NguyenThiThanhNguSi))
 
 Trần Thiên Cường 20002109 ([github_link](https://github.com/TranThienCuong))
 ___
